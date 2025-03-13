@@ -4,8 +4,8 @@ import { Button } from './ui/button'
 
 export const Hero = () => {
   return (
-    <section className="relative flex flex-col items-center gap-[70px] py-36">
-      <div className="from-secondary bg-secondary absolute inset-0 h-[75%] rounded-[60px]"></div>
+    <section className="relative flex flex-col items-center gap-[70px] pt-36">
+      <div className="from-secondary bg-secondary absolute inset-0 h-[85%] rounded-[60px]"></div>
       <div className="z-10 flex grow flex-col items-center gap-6">
         <h1 className="mx-auto max-w-4xl text-center text-7xl leading-tight font-bold text-white">
           Manage Your Team`s Chat With Qoterra

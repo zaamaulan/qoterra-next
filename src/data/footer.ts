@@ -1,23 +1,5 @@
 import { Logo } from '@/components/logo'
 
-type Footer = {
-  brand: {
-    name: string
-    logo: React.FC
-    tagline: string
-  }
-  sections: {
-    title: string
-    links?: string[]
-    email?: string
-    phone?: string
-  }[]
-  copyright: {
-    text: string
-    policies: string[]
-  }
-}
-
 export const footer: Footer = {
   brand: {
     name: 'Qoterra',
