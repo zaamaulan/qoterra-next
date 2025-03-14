@@ -6,7 +6,7 @@ import { Separator } from './ui/separator'
 
 export const Footer = () => {
   return (
-    <footer className="bg-foreground text-background">
+    <footer className="bg-foreground text-background mt-44">
       <div className="container mx-auto">
         <div className="flex justify-between gap-38 py-32">
           <FooterBrand />
